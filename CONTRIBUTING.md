@@ -7,8 +7,7 @@ additional channels.
 
 Next, follow the instructions below to setup your dev environment.
 
-Welcome
--------
+## Welcome
 
 Everyone is welcome to participate.  Contribute code via pull requests on GitHub, along with filing
 issues.  Engage with other devs on Discord to get and provide support.
@@ -22,8 +21,7 @@ of the community.
 how conflicts are expected to be handled.
 
 
-Developing for Nucleus One
---------------------------
+## Developing for Nucleus One
 
 To develop for Nucleus One, you will first need to get your dev environment set up.  In-house, we use
 [Visual Studio Code](https://code.visualstudio.com), which runs on most OSes.  You are welcome to use
@@ -31,9 +29,26 @@ another IDE, such as Android Studio, but much of our setup is configured to run 
 
 Getting started is straightforward, just clone the repositories you want to work on.
 
+Please make sure to read the below guide, to make sure you have an understanding of what is expected
+of any code you write.
+- [Testing Guide](TESTING.md)
 
-Documentation
--------------------------
+
+## Style guide
+
+Because Nucleus One's repositories span multiple languages, we cannot have a one-size-fits-all style
+guide.
+
+Generally speaking, the following styling principals should be observed.
+- Favor readability over convention
+- Documentation should be thorough, but not verbose
+- A standard line should *generally* not exceed 100 characters, unless doing so improves readability
+- Error messages should be clear, not vague or cryptic
+- All documentation, even private, should use the language's built-in code-commenting system
+  (i.e. `///`)
+
+
+## Documentation
 
 Generally speaking, our apps and SDKs are self documented.  That is, where a comment-based
 documentation exists for a given platform, such as Dart (i.e. [dartdoc](https://pub.dev/packages/dartdoc)),
