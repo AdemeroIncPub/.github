@@ -28,23 +28,29 @@ Generally, projects here are self-documented.  Those that are not will be update
 You can find Nucleus One's terms of service here:
 - [Terms of service]
 
-Nucleus One projects may also download resources from external servers.  For example, our Dart SDK will
-download dependencies from [pub.dev](https://pub.dev/).  By downloading and/or using our projects,
+Nucleus One projects may also download resources from external servers.  For example, our Dart SDK
+will download dependencies from [pub.dev](https://pub.dev/).  By downloading and/or using our projects,
 you also, in turn, agree to the terms of these external resource providers.
 
 
 ## About Nucleus One
 
-We want Nucleus One to be the go-to tools for your business process needs, regardless of what
+We want Nucleus One to be the go-to tool for your business process needs, regardless of what
 platforms your organization is currently using.  Don't see an SDK for your desired platform?  Let us
 know on [Discord] or here on GitHub.
 
 
 ## Development
 
-Nucleus One's mobile app and SDKs are open-source projects and we welcome your contribution.
+Nucleus One's mobile app and SDKs are open-source projects and we welcome your contributions.
 Information on doing so can be found [here](CONTRIBUTING.md).
 
+Not up for coding yet?  Maybe [our Zapier integrations](https://zapier.com/apps/nucleus-one/integrations)
+are a better fit for your business needs.  While there are countless possibilities, here are just a
+few examples what they can do.
+* Capture new emails as Nucleus One documents
+* Create tasks from calendar events
+* Submit forms
 
 [Discord]: https://nucleus.one/#discord "Discord"
 [Discord instructions]: CONTRIBUTING.md
